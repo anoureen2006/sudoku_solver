@@ -1,0 +1,8 @@
+# Tested with Python 3.12 (needs >= 3.10). Exact pins = the versions the code was tested with.
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+pandas==3.0.6
+matplotlib==3.11.2
+# test runner only (not tested against an exact version in the authoring sandbox, so a range):
+pytest>=8,<10
