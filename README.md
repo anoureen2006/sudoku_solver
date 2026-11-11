@@ -85,13 +85,5 @@ Useful demo switches: `--seed 5 --misreads 3`, `--strategy astar|greedy|ucs`, `-
 | 8 | README, pinned requirements | this file, `requirements.txt` |
 | 9 | tests (≥5 normal, ≥3 edge, ≥2 impossible) | `tests/` |
 | 10 | experiments | `run_experiments.py` -> `results/` |
-| 11 | report (≤ 12 pages) | **yours to write**: `docs/report_outline.md` |
-| 12 | presentation + live demo | **yours**: `docs/presentation_and_demo.md` |
-| 13 | contribution statements + git log | **yours**: `docs/contributions_template.md`; `git log` |
 
-## Things to do before submitting
 
-1. Run the full pipeline on real MNIST (`make_data.py` → `train_nn.py` → `run_experiments.py` ×2 goals) and use *those* numbers.
-2. Commit `data/manifest.json` (file hashes). The MNIST page itself was not checked by the authors of this code;
-   confirm the source and licence, and keep a local copy.
-3. If the network is too accurate for your taste, `build_pool` is where the hard-digit rule lives; document any change.
